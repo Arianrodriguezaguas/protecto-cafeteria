@@ -63,9 +63,29 @@ section {
     cursor: pointer;
 }
 
-.icons img:hover {
-    width: 40px;
-    height: 40px;
+.input-container {
+    position: relative;
+  }
+  
+  .input-container input {
+    padding: 1rem 4rem; /* Ajusta el espaciado para que el texto no se solape con el icono */
+    font-size: 18px;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: #d3ad7f;
+  }
+  
+  .input-container img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0.5rem;
+  }
+  
+
+.icons .icon-cart:hover {
+    padding: 0 8rem;
+    transition: linear 0.3s;
 }
 
 .btn {
