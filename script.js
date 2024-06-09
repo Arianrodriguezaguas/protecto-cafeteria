@@ -13,8 +13,8 @@ const menu6Element = document.querySelector(".menu-6");
 const price6Costo = document.querySelector(".price-6");
 
 const menu = [
-    { id: "Cafe Expresso Dobe", name: "Cafe Expresso Dobe", price: "13,99" },
-    { id: "Cafe Expresso Simple", name: "Cafe Expresso Simple", price: "10,99" },
+    { id: "Cafe Expresso Dobe", name: "Cafe Expresso", price: "10,99" },
+    { id: "Cafe Expresso Simple", name: "Cafe Expresso Doble", price: "13,99" },
     { id: "Cafe Capuchino", name: "Cafe Capuchino", price: "13,00" },
     { id: "Cafe latte", name: "Cafe latte", price: "14,00" },
     { id: "Cafe Cortado", name: "Cafe Cortado", price: "11,99" },
